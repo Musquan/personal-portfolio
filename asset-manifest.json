@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.8fe63582.css",
+    "main.js": "/personal-portfolio/static/js/main.468a7e9d.js",
+    "static/media/ProfileImage.jpg": "/personal-portfolio/static/media/ProfileImage.fef121e71f449a4d9075.jpg",
+    "static/media/RecipeFinder.jpg": "/personal-portfolio/static/media/RecipeFinder.0143b6fd4c6b9fa3ccf0.jpg",
+    "static/media/ToDo.jpg": "/personal-portfolio/static/media/ToDo.0c9759a325ed59dd0b80.jpg",
+    "static/media/TicTacToe.jpg": "/personal-portfolio/static/media/TicTacToe.c0052968df3b4a79f279.jpg",
+    "static/media/TechnoTreasure.jpg": "/personal-portfolio/static/media/TechnoTreasure.3f5fc0df44abb18d0327.jpg",
+    "static/media/MongoDB.png": "/personal-portfolio/static/media/MongoDB.e42d28391597ae82e2ca.png",
+    "static/media/Python.png": "/personal-portfolio/static/media/Python.b813d57a2f005272db5e.png",
+    "static/media/Css.png": "/personal-portfolio/static/media/Css.d2828b68db014200d6af.png",
+    "static/media/JS.png": "/personal-portfolio/static/media/JS.0a9ee44fd83f774ea177.png",
+    "static/media/TS.png": "/personal-portfolio/static/media/TS.27d81a586e4448a5e671.png",
+    "static/media/RentalProperty.jpg": "/personal-portfolio/static/media/RentalProperty.fee8cab330c8224d01ae.jpg",
+    "static/media/NodeJS.jpg": "/personal-portfolio/static/media/NodeJS.12f7c8fb548b961ba2ee.jpg",
+    "static/media/StackOverflowTagPrediction.jpeg": "/personal-portfolio/static/media/StackOverflowTagPrediction.7ebd0edd245878e996b8.jpeg",
+    "static/media/HeartDiseasePrediction.jpeg": "/personal-portfolio/static/media/HeartDiseasePrediction.4bb785fc6b7a03190f17.jpeg",
+    "static/media/WordStatistics.jpeg": "/personal-portfolio/static/media/WordStatistics.5d8a82675d712b187b14.jpeg",
+    "index.html": "/personal-portfolio/index.html",
+    "main.8fe63582.css.map": "/personal-portfolio/static/css/main.8fe63582.css.map",
+    "main.468a7e9d.js.map": "/personal-portfolio/static/js/main.468a7e9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fe63582.css",
+    "static/js/main.468a7e9d.js"
+  ]
+}
