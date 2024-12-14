@@ -8,7 +8,7 @@ const WorkExperience = () => {
           <p className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 animate-heading">
             Professional Experience
           </p>
-          <p className="text-lg py-4 text-gray-400 italic">
+          <p className="text-lg py-4 text-white italic">
             Highlighting the impact I’ve made in various roles across the tech industry.
           </p>
         </div>

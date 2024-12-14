@@ -38,25 +38,26 @@ const Experience = () => {
   return (
     <div
       name="technologies"
-      className="bg-gradient-to-b from-gray-800 to-black   w-full min-h-screen pt-20"
+      className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen pt-20 pb-16"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div className="text-center mb-10">
-          <p className="text-5xl font-bold pb-1 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 animate-heading">
+      <div className="max-w-screen-lg mx-auto p-6 flex flex-col justify-center w-full h-full text-white">
+        <div className="text-center mb-12">
+          <p className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 animate-heading">
             Technologies
           </p>
-          <p className="text-lg py-4 text-gray-400 italic">
+          <p className="text-lg py-4 text-white italic">
             These are the technologies I have worked with
           </p>
         </div>
-        <div className="flex justify-center space-x-6 mb-8">
+
+        <div className="flex justify-center space-x-6 mb-12">
           {Object.keys(categories).map((category) => (
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
-              className={`px-6 py-3 rounded-lg text-lg font-semibold transition-all duration-300 ${
+              className={`px-8 py-3 rounded-lg text-lg font-semibold italic transition-all duration-300 ${
                 activeCategory === category
-                  ? 'bg-purple-500 text-white'
+                  ? 'bg-gradient-to-r from-blue-400 to-green-400 text-white'
                   : 'bg-gray-700 text-gray-300 hover:bg-gray-600 hover:text-white'
               }`}
             >
@@ -64,18 +65,19 @@ const Experience = () => {
             </button>
           ))}
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 text-center py-8 px-12 sm:px-0">
           {categories[activeCategory].map(({ id, src, title }) => (
             <div
               key={id}
-              className="shadow-md hover:scale-105 duration-500 py-4 rounded-lg hover:bg-gray-800 transition-transform"
+              className="shadow-xl hover:scale-105 duration-500 py-6 rounded-lg hover:bg-gray-800 transition-all"
             >
               <img
                 src={src}
                 alt={title}
-                className="w-20 h-20 mx-auto object-contain bg-transparent mb-4"
+                className="w-24 h-24 mx-auto object-contain bg-transparent mb-6 transition-transform duration-300 hover:scale-110"
               />
-              <p className="mt-2 text-lg font-semibold">{title}</p>
+              <p className="mt-4 text-xl font-semibold text-gray-300">{title}</p>
             </div>
           ))}
         </div>
