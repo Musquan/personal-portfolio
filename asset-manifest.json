@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.84e8f937.css",
-    "main.js": "/personal-portfolio/static/js/main.7c6f62b3.js",
+    "main.css": "/personal-portfolio/static/css/main.f06cc604.css",
+    "main.js": "/personal-portfolio/static/js/main.5a446404.js",
     "static/media/RecipeFinder.jpg": "/personal-portfolio/static/media/RecipeFinder.0143b6fd4c6b9fa3ccf0.jpg",
     "static/media/ProfileImage.jpg": "/personal-portfolio/static/media/ProfileImage.58b3dfab29f348477893.jpg",
     "static/media/ToDo.jpg": "/personal-portfolio/static/media/ToDo.0c9759a325ed59dd0b80.jpg",
@@ -18,11 +18,11 @@
     "static/media/HeartDiseasePrediction.jpeg": "/personal-portfolio/static/media/HeartDiseasePrediction.4bb785fc6b7a03190f17.jpeg",
     "static/media/WordStatistics.jpeg": "/personal-portfolio/static/media/WordStatistics.5d8a82675d712b187b14.jpeg",
     "index.html": "/personal-portfolio/index.html",
-    "main.84e8f937.css.map": "/personal-portfolio/static/css/main.84e8f937.css.map",
-    "main.7c6f62b3.js.map": "/personal-portfolio/static/js/main.7c6f62b3.js.map"
+    "main.f06cc604.css.map": "/personal-portfolio/static/css/main.f06cc604.css.map",
+    "main.5a446404.js.map": "/personal-portfolio/static/js/main.5a446404.js.map"
   },
   "entrypoints": [
-    "static/css/main.84e8f937.css",
-    "static/js/main.7c6f62b3.js"
+    "static/css/main.f06cc604.css",
+    "static/js/main.5a446404.js"
   ]
 }
