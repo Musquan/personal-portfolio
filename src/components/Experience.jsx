@@ -49,19 +49,18 @@ const Experience = () => {
             These are the technologies I have worked with
           </p>
         </div>
-
-        <div className="flex justify-center space-x-6 mb-12">
+        <div className="flex flex-wrap justify-center gap-4 mb-12 px-4">
           {Object.keys(categories).map((category) => (
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
-              className={`px-8 py-3 rounded-lg text-lg font-semibold italic transition-all duration-300 ${
+              className={`px-8 py-3 rounded-lg text-lg font-semibold transition-all duration-300 ${
                 activeCategory === category
                   ? 'bg-gradient-to-r from-blue-400 to-green-400 text-white'
                   : 'bg-gray-700 text-gray-300 hover:bg-gray-600 hover:text-white'
               }`}
             >
-              <span className="italic text-xl">{category}</span>
+              <span className="text-xl italic">{category}</span>
             </button>
           ))}
         </div>
@@ -87,3 +86,4 @@ const Experience = () => {
 };
 
 export default Experience;
+

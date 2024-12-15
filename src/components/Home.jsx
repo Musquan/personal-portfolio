@@ -11,7 +11,7 @@ const Home = () => {
       name="home" 
       className="bg-gradient-to-b from-black to-gray-800 h-screen w-full pt-28 md:pt-20 sm:pt-32"
     >
-      <div className="max-w-screen-lg mx-auto px-6 flex flex-col md:flex-row items-center justify-center h-full md:gap-12">
+      <div className="max-w-screen-lg mx-auto px-6 flex flex-col md:flex-row items-center justify-center h-full md:gap-12 overflow-hidden">
         <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl bg-gradient-to-r from-blue-500 via-teal-400 to-green-500 p-1 mb-10 md:mb-0">
           <div className="rounded-full w-full h-full bg-black shadow-lg shadow-teal-400/50">
             <img 
