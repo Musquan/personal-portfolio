@@ -4,7 +4,6 @@ import Social from "./components/Social"
 import About from "./components/About"
 import Portfolio from "./components/Portfolio"
 import Experience from "./components/Experience"
-import WorkExperience from "./components/WorkExperience"
 import Testimonials from "./components/Testimonials"
 import Footer from "./components/Footer"
 
@@ -14,7 +13,6 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      <WorkExperience />
       <Testimonials />
       <Portfolio />
       <Experience />

@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <div
       name="testimonials"
-      className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen pt-32 pb-20"
+      className="bg-gradient-to-b from-black to-gray-800 w-full min-h-screen pt-32 pb-20"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full text-white">
         <div className="text-center mb-10">
@@ -33,7 +33,7 @@ const Testimonials = () => {
                 href="https://www.linkedin.com/in/musquankarovalia/details/recommendations/?detailScreenTabIndex=0"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white w-fit px-8 py-4 my-2 flex items-center rounded-full bg-gradient-to-r from-blue-400 to-teal-400 cursor-pointer transform hover:scale-105 transition-transform duration-300"
+                className="text-white w-fit px-8 py-4 my-2 flex items-center rounded-full bg-gradient-to-r from-blue-500 via-teal-400 to-green-500 cursor-pointer transform hover:scale-105 transition-transform duration-300"
               >
                 View LinkedIn Recommendations
               </a>

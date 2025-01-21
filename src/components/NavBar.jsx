@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes, FaHome, FaUserAlt, FaTools, FaQuoteRight, FaProjectDiagram, FaCode } from "react-icons/fa";
+import { FaBars, FaTimes, FaHome, FaUserAlt, FaQuoteRight, FaProjectDiagram, FaCode } from "react-icons/fa";
 import { Link } from 'react-scroll';
 
 const NavBar = () => {
@@ -8,10 +8,9 @@ const NavBar = () => {
   const links = [
     { id: 1, icon: <FaHome size={20} />, text: 'home', link: 'home' },
     { id: 2, icon: <FaUserAlt size={20} />, text: 'about', link: 'about' },
-    { id: 3, icon: <FaTools size={20} />, text: 'experience', link: 'experience' },
-    { id: 4, icon: <FaQuoteRight size={20} />, text: 'testimonials', link: 'testimonials' },
-    { id: 5, icon: <FaProjectDiagram size={20} />, text: 'projects', link: 'projects' },
-    { id: 6, icon: <FaCode size={20} />, text: 'technologies', link: 'technologies' },
+    { id: 3, icon: <FaQuoteRight size={20} />, text: 'testimonials', link: 'testimonials' },
+    { id: 4, icon: <FaProjectDiagram size={20} />, text: 'projects', link: 'projects' },
+    { id: 5, icon: <FaCode size={20} />, text: 'technologies', link: 'technologies' },
   ];
 
   return (

@@ -54,7 +54,7 @@ const Social = () => {
             <li
               key={id}
               className={
-                'flex justify-between items-center w-40 h-14 px-4 font-semibold italic bg-gradient-to-r from-blue-600 to-green-400 text-white ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 shadow-lg ' +
+                'flex justify-between items-center w-40 h-14 px-4 font-semibold italic bg-gradient-to-r from-blue-500 via-teal-400 to-green-500 text-white ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 shadow-lg ' +
                 style
               }
             >
