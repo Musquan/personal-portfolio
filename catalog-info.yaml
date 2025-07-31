@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: personal-portfolio
+  description: A personal portfolio website showcasing projects and skills.
+  annotations:
+    github.com/project-slug: Musquan/personal-portfolio
+    jira/project-key: SCRUM
+    jira/label: backstage-component:personal-portfolio
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
